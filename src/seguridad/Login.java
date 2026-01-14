@@ -19,7 +19,7 @@ public class Login {
 			String u = s.nextLine();
 			System.out.print("Pasahitza: ");
 			String p = s.nextLine();
-
+			
 			if (egiaztatu(u, p))
 				return true;
 
